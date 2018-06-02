@@ -19,7 +19,7 @@ fi
 # Format is start freq:end freq:name for range
 # Default to rough ranges to include uplink and downlink for all LTE providers in the US
 # The E4000 has a top end of 2200 MHz but scanning up to that range is unreliable
-RANGES="617:746:uslte1 1710:1790:uslte2 2110:2190:uslte3"
+RANGES="617:746:uslte1 1710:1790:uslte2 2110:2190:uslte3 300:400:garage"
 
 # Number of sweeps
 SWEEPS="1"
